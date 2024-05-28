@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewTomato"
+        android:layout_width="match_parent"
+        android:layout_height="333dp"
+        android:src="@drawable/tomato"
+        app:srcCompat="@drawable/tomato"
+        tools:srcCompat="@drawable/tomato" />
+
+    <TextView
+        android:id="@+id/headingText"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_marginTop="400dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/contentText"
+        android:layout_width="match_parent"
+        android:layout_height="318dp"
+        android:layout_marginTop="450dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+</RelativeLayout>
